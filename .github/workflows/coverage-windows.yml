@@ -67,6 +67,6 @@ jobs:
       - name: Clean tmp
         run: npx rimraf ./coverage/tmp
       - name: Upload
-        uses: codecov/codecov-action@e0b68c6749509c5f83f984dd99a76a1c1a231044  # v4.0.1
+        uses: codecov/codecov-action@13ce06bfc6bbe3ecf90edbbf1bc32fe5978ca1d3  # v5.3.1
         with:
           directory: ./coverage
